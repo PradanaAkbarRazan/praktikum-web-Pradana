@@ -22,7 +22,24 @@ export default function Home() {
   return (
     <main style={styles.page}>
       <div style={styles.hud}>
-        <div style={styles.title}>LOS SANTOS</div>
+        <div style={styles.hero}>
+          <div style={styles.gtaLogo}>HIT MISSION</div>
+          <div style={styles.vice}>Neon Ops</div>
+          <div style={styles.account}>Player: Pradana 105224005</div>
+          <svg style={styles.palms} viewBox="0 0 200 60" preserveAspectRatio="xMidYMid meet">
+            <g fill="none" stroke="rgba(0,0,0,0.9)" strokeWidth="1">
+              <path d="M10 50 C 30 20, 40 10, 60 20 C 80 30, 90 40, 110 30 C 130 20, 140 10, 160 25" fill="rgba(0,0,0,0.45)" />
+            </g>
+            <g transform="translate(20,8) scale(0.8)" fill="#0b0b0b">
+              <path d="M18 34c-1-6 4-14 8-16 6-3 10 6 12 12 3 9-9 15-20 13z" />
+              <path d="M30 22c2-4 8-9 12-8 6 1 6 10 4 15-2 6-14 8-18 1z" />
+            </g>
+            <g transform="translate(110,6) scale(0.9)" fill="#0b0b0b">
+              <path d="M18 34c-1-6 4-14 8-16 6-3 10 6 12 12 3 9-9 15-20 13z" />
+              <path d="M30 22c2-4 8-9 12-8 6 1 6 10 4 15-2 6-14 8-18 1z" />
+            </g>
+          </svg>
+        </div>
 
         <div style={{display:'flex', gap:12, alignItems:'center'}}>
           <div style={styles.row}>
@@ -167,11 +184,16 @@ const styles: {[k:string]: React.CSSProperties} = {
   },
   title: {
     fontSize: 42,
-    letterSpacing: 4,
+    letterSpacing: 2,
     color: rgb(255,200,10),
-    textShadow: '2px 2px 0 rgba(0,0,0,0.6), 6px 6px 40px rgba(255,50,90,0.06)',
+    textShadow: '0 6px 20px rgba(255,20,150,0.14)',
     fontWeight: 900
   },
+  hero: {display:'flex', flexDirection:'column', gap:6},
+  gtaLogo: {fontFamily:'GTA, Impact, Arial Black, sans-serif', fontSize:28, color:'#ffffff', textTransform:'uppercase', letterSpacing:2, padding:'6px 12px', background:'linear-gradient(90deg,#1a0b2e,#2a083a)', borderRadius:8, boxShadow:'0 12px 60px rgba(255,20,150,0.06)'},
+  vice: {fontFamily:'GTA, "Brush Script MT", cursive, sans-serif', fontSize:34, color:'#ff78f0', textShadow:'0 6px 30px rgba(255,85,200,0.22)', fontWeight:900},
+  account: {fontSize:13, color:'rgba(255,255,255,0.8)', marginTop:6, background:'rgba(255,255,255,0.02)', padding:'6px 8px', borderRadius:6, alignSelf:'flex-start'},
+  palms: {width:220, height:60, opacity:0.85},
   row: {display:'flex', gap:18, alignItems:'center'},
   stat: {background:'rgba(0,0,0,0.25)', padding:'10px 14px', borderRadius:8, minWidth:120, textAlign:'center'},
   statLabel: {fontSize:10, color:'rgba(255,255,255,0.7)', letterSpacing:1},
@@ -236,6 +258,10 @@ styles.thumbImg = {height:74, borderRadius:6, display:'flex', alignItems:'center
 styles.thumbLabel = {fontSize:13, marginTop:8, fontWeight:800}
 styles.thumbSub = {fontSize:12, color:'rgba(255,255,255,0.7)'}
 styles.mapThumb = {height:74, borderRadius:6, overflow:'hidden', background:'#0b0b0b', display:'flex', alignItems:'center', justifyContent:'center'}
+
+// Vice City neon accents
+styles.page.background = `radial-gradient(circle at 10% 10%, ${rgb(60,10,80)} 0%, transparent 25%), linear-gradient(180deg, ${rgb(10,10,30)} 0%, ${rgb(45,5,60)} 60%)`
+styles.viceAccent = {position:'absolute', left:0, right:0, top:0, height:220, background:'linear-gradient(180deg, rgba(255,0,150,0.06), transparent)'}
 
 
 
