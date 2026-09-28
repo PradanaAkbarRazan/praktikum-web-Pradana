@@ -34,7 +34,7 @@ Tautan PR: https://github.com/PradanaAkbarRazan/praktikum-web-Pradana/pull/1
 Analisis Konflik Git, Cara Penyelesaian, dan Alasan Pemilihan Isi Akhir
 
 1. Konflik yang Terjadi:
-Konflik muncul pada berkas README.md saat menjalankan perintah git merge latihan/konflik dari branch main. Penyebabnya adalah baris deskripsi produk diubah pada kedua branch secara bersamaan dengan teks yang berbeda.
+Konflik muncul pada berkas README.md saat menjalankan perintah git merge latihan/konflik dari branch main. Penyebabnya adalah baris deskripsi produk diubah pada kedua branch secara bersamaan dengan teks yang berbeda
 
 
 2. Cara Penyelesaian:
