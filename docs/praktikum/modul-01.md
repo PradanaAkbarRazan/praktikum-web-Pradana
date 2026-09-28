@@ -1,7 +1,7 @@
 # Dokumen Teknis Modul 1 Lingkungan Pengembangan, Git, dan Lalu Lintas HTTP
 
 Nama/NIM  : Pradana Akbar Razan / 105224005
-Repositori: https://github.com/PradanaAkbarRazan/nama-produk
+Repositori: https://github.com/PradanaAkbarRazan/praktikum-web-Pradana
 
 ### 1. Lingkungan Pengembangan
 Tabel versi sistem operasi dan perangkat lunak yang digunakan selama kegiatan praktikum:
@@ -29,7 +29,7 @@ Berikut adalah grafik riwayat commit repositori lokal setelah penggabungan branc
 
 
 Tautan Pull Request yang Telah Digabungkan
-Tautan PR: https://github.com/pradanaakbar/nama-produk/pull/1
+Tautan PR: https://github.com/pradanaakbar/praktikum-web-Pradana/pull/1
 
 Analisis Konflik Git, Cara Penyelesaian, dan Alasan Pemilihan Isi Akhir
 
