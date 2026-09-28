@@ -29,7 +29,7 @@ Berikut adalah grafik riwayat commit repositori lokal setelah penggabungan branc
 
 
 Tautan Pull Request yang Telah Digabungkan
-Tautan PR: https://github.com/pradanaakbar/praktikum-web-Pradana/pull/1
+Tautan PR: https://github.com/PradanaAkbarRazan/praktikum-web-Pradana/pull/1
 
 Analisis Konflik Git, Cara Penyelesaian, dan Alasan Pemilihan Isi Akhir
 
